@@ -24,9 +24,9 @@ def scan(ip):
 
 
 banner = pyfiglet.figlet_format(" NETWORK\n SCAN")
+while True:
+	print(banner)
+	print(" With GREAT power comes GREAT responsability!\n")
 
-print(banner)
-print(" With GREAT power comes GREAT responsability!\n")
-
-user_input = input(" What network do you wish to scan? (e.g 0.0.0.0/?)\n The desired Network:")
-scan(user_input)
+	user_input = input(" What network do you wish to scan? (e.g 0.0.0.0/?)\n The desired Network:")
+	scan(user_input)
